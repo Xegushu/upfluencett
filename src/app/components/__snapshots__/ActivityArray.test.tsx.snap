@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ActivityArray component ActivityArray component (snapshot) should render the component with basic data 1`] = `
+<DocumentFragment>
+  <div
+    class="bg-white shadow-md rounded-lg overflow-hidden p-4 m-4 min-w-[690px] max-w-3xl"
+  >
+    <h2
+      class="text-xl font-bold text-gray-800"
+    >
+      Feed1s
+    </h2>
+    <canvas
+      height="150"
+      role="img"
+      width="300"
+    />
+  </div>
+</DocumentFragment>
+`;

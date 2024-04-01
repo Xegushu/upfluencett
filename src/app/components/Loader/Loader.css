@@ -1,0 +1,27 @@
+.loader {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .bounce {
+    width: 25px;
+    height: 25px;
+    background-color: #3498db;
+    border-radius: 50%;
+    animation: bounce 1.2s ease infinite alternate;
+  }
+  
+  @keyframes bounce {
+    from,
+    to {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.5);
+    }
+  }
